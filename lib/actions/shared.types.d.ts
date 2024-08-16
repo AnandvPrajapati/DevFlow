@@ -141,7 +141,7 @@ export interface ToggleSaveQuestionParams {
 }
 
 export interface GetSavedQuestionsParams {
-  clerkId?: string;
+  clerkId: string;
   page?: number;
   pageSize?: number;
   filter?: string;
